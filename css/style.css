@@ -21,7 +21,7 @@ html,body{
 	margin: 0 auto;
 	height: auto;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 .avatar{
 	height: 130px;
@@ -34,7 +34,7 @@ html,body{
 	margin: 0 auto;
 }
 form{
-	margin-top: 30px;
+	margin-top: 20px;
 }
 .input-container input[type=text]{
 	margin-top:7px;
