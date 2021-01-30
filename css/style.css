@@ -20,7 +20,7 @@ html,body{
 @font-face {
     font-family: 'Bauhaus';
     src: url('Bauhaus.woff2') format('woff2'),
-        url('Bauhaus.woff') format('woff');
+    url('Bauhaus.woff') format('woff');
     font-weight: 100;
     font-style: italic;
     font-display: swap;
@@ -113,5 +113,16 @@ form{
 @media screen and (max-width:500px){
 	.g{
 	margin-top: auto;
+}
+	.input-container input[type=text],input[type=password]{
+	padding-top: 5px;
+	padding-left: 20px;
+}
+.bot a{
+	text-decoration: none;
+	padding-top: 8px;
+}
+.jtc a{
+	color: gray;
 }
 }
