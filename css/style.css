@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: bauhauslightctt;
+	font-family: BauhausStd-Light, bauhaus;
 }
 
 html,body{
@@ -11,9 +11,15 @@ html,body{
 	background-image:url('../images/fundo.png');
 }
 @font-face {
-	font-family: bauhauslightctt;
-	src: url('../fonts/bauhauslightctt.ttf');
-	src: local('../fonts/bauhauslightctt.ttf');
+	font-family: BauhausStd-Light;
+	src: url('../fonts/BauhausStd-Light.otf');
+	src: local('../fonts/BauhausStd-Light.otf');
+
+}
+@font-face {
+	font-family: bauhaus;
+	src: url('../fonts/bauhaus.ttf');
+	src: local('../fonts/bauhaus.ttf');
 
 }
 .clear{
