@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Bauhaus", 'Bauhaus',Bauhaus;
+	font-family: Bauhaus, "Bauhaus", 'Bauhaus';
 }
 
 html,body{
@@ -19,12 +19,13 @@ html,body{
 }*/
 @font-face {
     font-family: 'Bauhaus';
-    src: url('../fonts/Bauhaus.woff2') format('woff2'),
-        url('../fonts/Bauhaus.woff') format('woff');
+    src: url('Bauhaus.woff2') format('woff2'),
+        url('Bauhaus.woff') format('woff');
     font-weight: 100;
     font-style: italic;
     font-display: swap;
 }
+
 
 .clear{
 	clear: both;
