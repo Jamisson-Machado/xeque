@@ -124,5 +124,9 @@ form{
 }
 .jtc a{
 	color: gray;
+	padding-top: 3px;
+}
+.g{
+	margin-top: -3px;
 }
 }
