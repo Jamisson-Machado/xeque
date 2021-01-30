@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: baus, bauhaus;
+	font-family: bauhaus, bau;
 }
 
 html,body{
@@ -10,14 +10,15 @@ html,body{
 	height: 100%;
 	background-image:url('../images/fundo.png');
 }
+/*
 @font-face {
 	font-family: 'bau';
 	src: url("../fonts/BauhausStd-Light.otf");
 	src: local("../fonts/BauhausStd-Light.otf");
 
-}
+}*/
 @font-face {
-	font-family: 'bauhaus';
+	font-family: "bauhaus";
 	src: url("../fonts/bauhaus.ttf");
 	src: local("../fonts/bauhaus.ttf");
 }
