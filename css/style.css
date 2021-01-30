@@ -13,6 +13,7 @@ html,body{
 @font-face {
 	font-family: bauhauslightctt;
 	src: url('../fonts/bauhauslightctt.ttf');
+	src: local('../fonts/bauhauslightctt.ttf');
 
 }
 .clear{
