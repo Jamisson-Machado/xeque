@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "bauhaus 93";
+	font-family: bauhauslightctt;
 }
 
 html,body{
@@ -11,8 +11,8 @@ html,body{
 	background-image:url('../images/fundo.png');
 }
 @font-face {
-	font-family: bauhaus;
-	src: url('../fonts/bauhaus.ttf');
+	font-family: bauhauslightctt;
+	src: url('../fonts/bauhauslightctt.ttf');
 }
 .clear{
 	clear: both;
