@@ -97,10 +97,7 @@ form{
 	float: left;
 	font-size: 15px;
 }
-.jtc p{
-	display: inline-block;
-	margin:auto;
-}
+
 .g5g{
 	display: none;
 	text-align: center;
@@ -109,7 +106,12 @@ form{
 	font-size: 10px;
 }
 
-.g5g p{
-	display: inline-block;
-	margin:auto;
+.g{
+	margin-top: -8px;
+}
+
+@media screen and (max-width:500px){
+	.g{
+	margin-top: auto;
+}
 }
