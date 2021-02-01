@@ -172,11 +172,16 @@ div.menu h2{
 
 .center2{
 	max-width: 1280px;
-	width: 350px;
+	width: 330px;
 	margin: 0 auto;
 	height: auto;
 	padding-top: 20px;
 }
+
+.est p{
+	margin:10px 0;
+}
+
 
 	display: block;
 	margin:auto;
