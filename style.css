@@ -109,6 +109,96 @@ form{
 .g{
 	margin-top: -8px;
 }
+/*home*/
+.menu{
+	display: block;
+	margin:auto;
+	text-align: center;
+	margin: 0;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+}
+div.menu h2{
+	margin: 20px 0;
+
+}
+
+.ajuda{
+	width: 350px;
+	padding:10px 20px;
+	text-align: justify;
+    display: block;
+    margin:0 auto;
+    background-color: #f7ebd4ff;
+    text-indent: 10px;
+}
+.ajuda h3,h4{
+	margin:20px 15px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f7ebd4ff;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e2ba69ff; 
+  border-radius: 10px;
+}
+
+.avatar2{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-image: url('../images/avatar.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.center2{
+	max-width: 1280px;
+	width: 320px;
+	margin: 0 auto;
+	height: auto;
+	padding: 20px 10px 0 10px;
+}
+
+.est p{
+	margin:10px 0;
+}
+
+
+	display: block;
+	margin:auto;
+	text-align: justify;
+	margin: 0;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+
+
+
+
+
+
 
 @media screen and (max-width:500px){
 	.g{
@@ -126,7 +216,5 @@ form{
 	color: gray;
 	padding-top: 3px;
 }
-.g{
-	margin-top: -15px;
-}
+
 }
