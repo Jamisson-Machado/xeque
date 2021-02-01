@@ -31,14 +31,7 @@ html,body{
 	clear: both;
 }
 
-.center{
-	max-width: 1280px;
-	width: 250px;
-	margin: 0 auto;
-	height: auto;
-	text-align: center;
-	padding-top: 20px;
-}
+u
 .avatar{
 	height: 130px;
 	width: 130px;
@@ -160,9 +153,23 @@ div.menu h2{
   border-radius: 10px;
 }
 
+.avatar2{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-image: url('../images/avatar.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 
+}
 
-
+.center2{
+	max-width: 1280px;
+	width: 350px;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 20px;
+}
 
 	display: block;
 	margin:auto;
