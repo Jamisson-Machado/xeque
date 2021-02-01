@@ -31,7 +31,14 @@ html,body{
 	clear: both;
 }
 
-u
+.center{
+	max-width: 1280px;
+	width: 250px;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+	padding-top: 20px;
+}
 .avatar{
 	height: 130px;
 	width: 130px;
