@@ -20,7 +20,8 @@ html,body{
 @font-face {
     font-family: 'Bauhaus';
     src: url('Bauhaus.woff2') format('woff2'),
-    url('Bauhaus.woff') format('woff');
+    url('Bauhaus.woff') format('woff'), url('Bauhaus.ttf') format('ttf'),
+    url('Bauhaus.eot') format('eot');
     font-weight: 100;
     font-style: italic;
     font-display: swap;
@@ -111,10 +112,7 @@ form{
 }
 /*home*/
 .menu{
-	display: block;
-	margin:auto;
 	text-align: center;
-	margin: 0;
     position: absolute;
 	top: 50%;
 	left: 50%;
@@ -125,7 +123,10 @@ form{
 	text-decoration: none;
 	color: black;
 }
-div.menu h2{
+.menu p{
+	font-size: 20px;
+}
+div.menu h1{
 	margin: 20px 0;
 
 }
