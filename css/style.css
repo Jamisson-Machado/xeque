@@ -188,6 +188,28 @@ div.menu h1{
 	margin:10px 0;
 }
 
+.exper h2{
+	display: block;
+	text-align: center;
+	padding-top: 4px;
+}
+
+.nivel{height: auto;
+	padding:5px 5px; 
+	background-color: black;
+	font-size: 13px;
+}
+
+.nivel_blocos{
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+}
+	
+
+
+
+
 	display: block;
 	margin:auto;
 	text-align: justify;
@@ -221,5 +243,10 @@ div.menu h1{
 	color: gray;
 	padding-top: 3px;
 }
+.exper h2{padding-top: 8px;
+}
 
+.nivel_blocos{
+	padding-top: 2px;
+}
 }
