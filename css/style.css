@@ -83,6 +83,7 @@ form{
 } 
 
 .jct{
+	display:inline-block;
 	height: 20px;
 	width: 120px;
 	float: left;
