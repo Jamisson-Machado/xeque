@@ -65,38 +65,29 @@ form{
 }
 
 .bot{
-	display: inline-block;
 	width: 250px;
 	margin-top: 15px;
 	bordr: solid red 1px;
-	padding: auto;
 }
-.bot a{
+.botoes{
 	display: inline-block;
-	text-decoration: none;
-	color: gray;
 	boder: solid red 1px;
 	height: 30px;
 	width: 120px;
 	background-color: #f7ebd4ff;
-	
-}
 
-.jtc{
-	display: block;
-	width: 250px;
-	margin-top: 20px;
 }
-
-.jtc a{
-	color: gray;
-	display: inline-block;
-	height: 20px;
-	width: 110px;
-	background-color: #f7ebd4ff;
+.botoes a,.jct a{
 	text-decoration: none;
+	color: gray;
+} 
+
+.jct{
+	height: 20px;
+	width: 120px;
 	float: left;
-	font-size: 15px;
+	margin-top: 15px;
+	background-color: #f7ebd4ff;
 }
 
 .g5g{
