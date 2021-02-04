@@ -69,14 +69,15 @@ form{
 	width: 250px;
 	margin-top: 15px;
 	bordr: solid red 1px;
+	text-decoration: none;
 }
 
 .botoes{
 	color: gray;
 	display: inline-block;
-	height: auto;
 	width: 120px;
 	background-color: #f7ebd4ff;
+	text-decoration: none;
 
 }
 .botoes a,.jct a{
