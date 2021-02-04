@@ -19,6 +19,7 @@ html,body{
 }*/
 @font-face {
     font-family: 'Bauhaus';
+    -webkit-font-family: 'Bauhaus';
     src: url('Bauhaus.woff2') format('woff2'),
     url('Bauhaus.woff') format('woff'), url('Bauhaus.ttf') format('ttf'),
     url('Bauhaus.eot') format('eot');
@@ -404,14 +405,4 @@ border-bottom: 1px solid red;
 	.input-container input[type=text],input[type=password]{
 	padding-top: 5px;
 	padding-left: 20px;
-}
-.bot a{
-	text-decoration: none;
-	padding-top: 8px;
-}
-.jtc a{
-	color: gray;
-	padding-top: 3px;
-}
-
 }
