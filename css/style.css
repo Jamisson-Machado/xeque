@@ -73,6 +73,7 @@ form{
 }
 
 .botoes{
+	text-align: center;
 	color: gray;
 	display: inline-block;
 	width: 120px;
@@ -395,8 +396,4 @@ border-bottom: 1px solid red;
 	.input-container input[type=text],input[type=password]{
 	padding-top: 5px;
 	padding-left: 20px;
-}
-
-.botoes div{
-	margin-top: -5px !important;
 }
